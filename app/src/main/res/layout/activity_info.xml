@@ -21,7 +21,7 @@
         android:layout_height="300dp"
         android:layout_below="@id/title_info"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/img_1" />
+        />
     <TextView
             android:layout_below="@id/img_info"
             android:layout_centerHorizontal="true"

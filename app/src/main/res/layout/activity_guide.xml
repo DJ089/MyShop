@@ -38,9 +38,28 @@
     </TableRow>
     <TableRow>
 
-        <TextView android:text="[주소]서울시"/>
+        <ImageView android:src="@drawable/map"
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:id="@+id/img_map"/>
+        <TextView android:text="[주소]서울시 강남구 광명로 20"/>
 
     </TableRow>
+    <TableRow>
+
+        <ImageView android:src="@drawable/ic_launcher_background"/>
+            //android:id="@+id/img_map"/>
+        <TextView android:text="[주소]서울시 강남구 광명로 20"/>
+
+    </TableRow>
+    <TableRow>
+
+        <ImageView android:src="@drawable/ic_launcher_background"/>
+            //android:id="@+id/img_map"/>
+        <TextView android:text="[주소]서울시 강남구 광명로 20"/>
+
+    </TableRow>
+
 
 
 
