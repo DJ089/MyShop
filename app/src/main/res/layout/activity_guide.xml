@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:stretchColumns="*"
+    tools:context=".GuideActivity">
+
+    <TableRow>
+        <TextView android:text="운영시간"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"/>
+        <TextView android:text="9:00~18:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="토요일"/>
+        <TextView android:text="9:00~18:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="점심"/>
+        <TextView android:text="9:00~18:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="오시는 길"/>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@color/design_default_color_background"/>
+        <TextView android:text="[주소]서울시 강남구 광명로 20"/>
+
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@color/design_default_color_background"/>
+        <TextView android:text="[지하철 이용]"/>
+
+    </TableRow>
+    <TableRow>
+
+        <TextView android:text="[주소]서울시"/>
+
+    </TableRow>
+
+
+
+
+
+
+
+
+</TableLayout>
